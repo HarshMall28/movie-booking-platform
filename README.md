@@ -42,7 +42,7 @@ A modern and **fully responsive** **Movie Booking Platform** where users can exp
 ---
 
 ## 🛠️ **Technologies Used**
-- **Frontend:** Next.js, React.js, Tailwind CSS  
+- **Frontend:** React.js, Tailwind CSS  
 - **Backend:** Node.js, Express.js  
 - **Data Handling:** JSON (Mock API for movie details)  
 - **Image Sources:** TMDb API  
