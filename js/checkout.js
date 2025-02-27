@@ -9,7 +9,9 @@ function showCartItems() {
   let itemTotal = document.getElementById("itemTotal");
   let orderTotal = document.getElementById("orderTotal");
   let itemSum = 0;
-  let cartItemCardContainer = document.querySelector(".cartItemCardContainer");
+  let cartItemCardContainer = document.querySelector(
+    ".cartItemCardContainer"
+  );
   basket.map((singleItem) => {
     console.log(singleItem);
     let {

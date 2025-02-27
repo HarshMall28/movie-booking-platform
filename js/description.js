@@ -371,3 +371,19 @@ function seatTicket() {
   // Initial count and total set
   updateSelectedCount();
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  const navbarContent = document.querySelector(
+    ".navbarTwo .navbar-content"
+  );
+
+  hamburgerMenu.addEventListener("click", function () {
+    navbarContent.classList.toggle("active");
+    if (navbarContent.classList.contains("active")) {
+      hamburgerMenu.innerHTML = '<i class="fa-solid fa-times"></i>';
+    } else {
+      hamburgerMenu.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    }
+  });
+});

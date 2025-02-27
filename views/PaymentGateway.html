@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>PaymentGateway || Cinemax</title>
     <link rel="stylesheet" href="./PaymentGateway.css" />
     <link rel="stylesheet" href="fonts/css/all.css" />
@@ -17,7 +20,9 @@
     <section class="mainSection">
       <nav class="navbar">
         <figure><img src="images/logo.png" alt="" /></figure>
-        <button type="button" onclick="confirm('Hello world')">Cancel</button>
+        <button type="button" onclick="confirm('Hello world')">
+          Cancel
+        </button>
       </nav>
       <main class="mainContainer">
         <div class="mainContainer_left">
@@ -37,10 +42,12 @@
                     <option value="Ireland">Germany</option>
                   </select>
                 </div>
-                <div class="stateUt" style="display:none;">
+                <div class="stateUt" style="display: none">
                   <label for="stateUt"> State/Union Territory </label>
                   <select name="" id="stateUt">
-                    <option disabled selected>Please Select...</option>
+                    <option disabled selected>
+                      Please Select...
+                    </option>
                     <option value="">Maharashtra</option>
                     <option value="">Delhi</option>
                     <option value="">Bihar</option>
@@ -86,7 +93,10 @@
                           <img src="images/masterCard.jpg" alt="" />
                         </figure>
                         <figure>
-                          <img src="images/americanExpress.png" alt="" />
+                          <img
+                            src="images/americanExpress.png"
+                            alt=""
+                          />
                         </figure>
                         <figure>
                           <img src="images/discover.png" alt="" />
@@ -94,14 +104,24 @@
                       </div>
                     </div>
                   </div>
-                  <div id="creditBody" class="container" style="display: none">
+                  <div
+                    id="creditBody"
+                    class="container"
+                    style="display: none"
+                  >
                     <div class="bodyOne">
                       <label for="card"> Name on the card </label>
-                      <input type="text" placeholder="Name on the card" />
+                      <input
+                        type="text"
+                        placeholder="Name on the card"
+                      />
                     </div>
                     <div class="bodyTwo">
                       <label for="card">Card Number</label>
-                      <input type="text" placeholder="0000 0000 0000 0000" />
+                      <input
+                        type="text"
+                        placeholder="0000 0000 0000 0000"
+                      />
                     </div>
                     <div class="bodyThree">
                       <div class="one">
@@ -116,7 +136,8 @@
                     <div class="bodyFour">
                       <input type="checkbox" id="checkItem" />
                       <label for="checkItem"
-                        >Securely save this card for later purchases</label
+                        >Securely save this card for later
+                        purchases</label
                       >
                     </div>
                   </div>
@@ -138,14 +159,22 @@
                       </div>
                     </div>
                   </div>
-                  <div id="upiBody" class="container" style="display: none">
+                  <div
+                    id="upiBody"
+                    class="container"
+                    style="display: none"
+                  >
                     <div class="upiBodyLeft">
                       <p>
-                        Enter your UPI ID/ VPA and make payment on your UPI app.
+                        Enter your UPI ID/ VPA and make payment on
+                        your UPI app.
                       </p>
                       <div class="upiBodyLeftInput">
                         <label for="upiId">UPI ID/ VPA</label>
-                        <input type="text" placeholder="UPI ID / VPA" />
+                        <input
+                          type="text"
+                          placeholder="UPI ID / VPA"
+                        />
                       </div>
                       <button class="button" id="upiMakePayment">
                         Make Payment
@@ -154,8 +183,8 @@
                     <div class="upiBodyCenter"></div>
                     <div class="upiBodyRight">
                       <p>
-                        Scan QR code to complete your UPI payment on your mobile
-                        device.
+                        Scan QR code to complete your UPI payment on
+                        your mobile device.
                       </p>
                       <div class="barcode">
                         <figure class="barcodeImage">
@@ -185,10 +214,14 @@
                       </div>
                     </div>
                   </div>
-                  <div id="paytmBody" class="container" style="display: none">
+                  <div
+                    id="paytmBody"
+                    class="container"
+                    style="display: none"
+                  >
                     <p>
-                      In order to complete your transaction, we will transfer
-                      you over to Adyen's secure servers.
+                      In order to complete your transaction, we will
+                      transfer you over to Adyen's secure servers.
                     </p>
                   </div>
                 </div>
@@ -215,11 +248,13 @@
                     style="display: none"
                   >
                     <p>
-                      In order to complete your transaction, we will transfer
-                      you over to Adyean's secure server
+                      In order to complete your transaction, we will
+                      transfer you over to Adyean's secure server
                     </p>
                     <select name="" id="selectNet">
-                      <option selected disabled>Select your bank..</option>
+                      <option selected disabled>
+                        Select your bank..
+                      </option>
                       <option value="">IDBI Bank</option>
                       <option value="">Axis Bank</option>
                       <option value="">Kotak Bank</option>
@@ -244,13 +279,19 @@
                       </div>
                     </div>
                   </div>
-                  <div id="walletBody" class="container" style="display: none">
+                  <div
+                    id="walletBody"
+                    class="container"
+                    style="display: none"
+                  >
                     <p>
-                      In order to complete your transaction, we will transfer
-                      you over to Adyean's secure server
+                      In order to complete your transaction, we will
+                      transfer you over to Adyean's secure server
                     </p>
                     <select name="" id="selectNet">
-                      <option selected disabled>Select your bank..</option>
+                      <option selected disabled>
+                        Select your bank..
+                      </option>
                       <option value="">Airtel Wallet</option>
                       <option value="">Apple Wallet</option>
                       <option value="">Samsung Wallet</option>
@@ -288,8 +329,12 @@
             By completing your purchase you agree to these
             <a href="#">Terms of service.</a>
           </p>
-          <button type="button" id="checkOutButton">Complete Checkout</button>
-          <p class="paraTwo">Channel is secured by norton antivirus</p>
+          <button type="button" id="checkOutButton">
+            Complete Checkout
+          </button>
+          <p class="paraTwo">
+            Channel is secured by norton antivirus
+          </p>
         </div>
       </main>
     </section>
